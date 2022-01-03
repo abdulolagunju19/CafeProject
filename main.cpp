@@ -1,8 +1,4 @@
 //Abdul-Samad Olagunju
-//Ms. Dalal
-//Programming 35
-//Cafe Final Project
-//June 7, 2018
 
 //include all libraries to be used
 #include <iostream>
