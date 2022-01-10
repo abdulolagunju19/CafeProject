@@ -8,7 +8,7 @@
 
 using namespace std;
 
-void mainscreen :: mainmessage()
+void MainScreen :: mainMessage()
 {
 	//create information for five customers
 	customer person[50];
@@ -66,13 +66,13 @@ void mainscreen :: mainmessage()
 		if(option == 1)
 		{
 			//create object s for self check out
-			selfcheckout s;
+			SelfCheckout s;
 			s.findcost(othernum, person);
 		}
 		if(option == 2)	
 		{	
 			//create object c for cashiercheckout
-			cashiercheckout c;
+			CashierCheckout c;
 			//must enter 1 or 2 to enter sales menu of data entry menu
 			do{
 				cout << "Select 1 to enter the sales menu, or 2 to enter the data entry menu: ";
@@ -81,12 +81,12 @@ void mainscreen :: mainmessage()
 			if (whichmenu == 1)
 			{
 				//call on function for sales menu
-				c.salesmenu();
+				c.salesMenu();
 			}
 			else if(whichmenu == 2)
 			{
 				//call on function for data entry menu
-				c.dataentrymenu(person);
+				c.dataEntryMenu(person);
 			}
 		}
 		cout << "If you would like to continue shopping, press 1. If you would like to quit the program, press 2: ";
