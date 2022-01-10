@@ -10,7 +10,7 @@
 using namespace std;
 
 //create class mainscreen, declare members required for program
-class mainscreen 
+class MainScreen 
 {
 	public:
 		int numberofcustomers = 5;
@@ -32,7 +32,7 @@ class mainscreen
 		char typeofdiscount;
 		float cost = 0;
 		int password;
-		void mainmessage();
+		void mainMessage();
 		float menu[11] = {0, 8, 14, 16, 15, 16, 17, 14, 15, 9, 9};
 };
 #endif
