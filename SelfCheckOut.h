@@ -9,9 +9,9 @@
 
 using namespace std;
 //create selfcheckout, inherit mainscreen
-class selfcheckout : public mainscreen
+class SelfCheckOut : public MainScreen
 {	
 	public:
-		void findcost(int newID, customer person[50]);
+		void findCost(int newID, customer person[50]);
 };
 #endif
