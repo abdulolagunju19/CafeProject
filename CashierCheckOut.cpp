@@ -8,17 +8,17 @@
 
 using namespace std;
 
-void cashiercheckout :: salesmenu() 
+void CashierCheckout :: salesMenu() 
 {   //show menu
 	cout << "Abdul's Cafe and Bakery Breakfast Menu: " << endl;
 	cout << "1. YOGURT PARFAIT | $8.00 |" << endl;
 	cout << "2. BACON & EGG | $14.00 |" << endl;
-	cout << "3. EGGS BENEDICT – CANADIAN | $16.00 |" << endl;
-	cout << "4. EGGS BENEDICT – GARDEN | $15.00 |" << endl;
-	cout << "5. EGGS BENEDICT – GRAVLAX | $16.00 |" << endl;
+	cout << "3. EGGS BENEDICT â€“ CANADIAN | $16.00 |" << endl;
+	cout << "4. EGGS BENEDICT â€“ GARDEN | $15.00 |" << endl;
+	cout << "5. EGGS BENEDICT â€“ GRAVLAX | $16.00 |" << endl;
 	cout << "6. CRAB & SPRING ONION OMELETTE | $17.00 |" << endl;
 	cout << "7. BUTTERMILK WAFFLES | $14.00 |" << endl;
-	cout << "8. HAZELNUT CHOCOLATE CRÈPE | $15.00 |" << endl;
+	cout << "8. HAZELNUT CHOCOLATE CRÃˆPE | $15.00 |" << endl;
 	cout << "9. BACON BREAKFAST SANDWICH | $9.00 |" << endl;
 	cout << "10. VEGGIE BREAKFAST SANDWICH | $9.00 |" << endl;
 	//ask user for amount of products they would like to buy, and number of units
@@ -77,7 +77,7 @@ void cashiercheckout :: salesmenu()
 	}while(customercashtotal < discountcost);
 }
 
-void cashiercheckout :: dataentrymenu(customer person[50]) 
+void CashierCheckout :: dataEntryMenu(customer person[50]) 
 {
 	/*//create 5 customers
 	numberofcustomers = 5;
