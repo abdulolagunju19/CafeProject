@@ -66,13 +66,13 @@ void MainScreen :: mainMessage()
 		if(option == 1)
 		{
 			//create object s for self check out
-			SelfCheckout s;
+			SelfCheckOut s;
 			s.findcost(othernum, person);
 		}
 		if(option == 2)	
 		{	
 			//create object c for cashiercheckout
-			CashierCheckout c;
+			CashierCheckOut c;
 			//must enter 1 or 2 to enter sales menu of data entry menu
 			do{
 				cout << "Select 1 to enter the sales menu, or 2 to enter the data entry menu: ";
