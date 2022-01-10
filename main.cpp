@@ -15,8 +15,8 @@ int main()
 	//welcome message
 	cout << "Welcome to Abdul's Cafe!" << endl;
 	//create object and call on function needed
-	mainscreen m;
-	m.mainmessage();
+	MainScreen m;
+	m.mainMessage();
 	//thank you message
 	cout << "Thank you for shopping at Abdul's Cafe! Come Back Again!" << endl;	
 }
