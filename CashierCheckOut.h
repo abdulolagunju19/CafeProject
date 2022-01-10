@@ -12,8 +12,8 @@ using namespace std;
 class cashiercheckout : public mainscreen
 {	
 	public:
-		void salesmenu();
-		void dataentrymenu(customer person[50]); 
+		void salesMenu();
+		void dataEntryMenu(customer person[50]); 
 };
 
 #endif
